@@ -150,12 +150,12 @@ input, select, textarea {
 
 	@font-face {
 		font-family: "Tenor Sans";
-		src: url(/Users/leo/homepage/assets/fonts/TenorSans-Regular.ttf);
+		src: url(../fonts/TenorSans-Regular.ttf);
 	  }
 
 	@font-face{
 		font-family: "Cormorant";
-		src: url(/Users/leo/homepage/assets/fonts/Cormorant-VariableFont_wght.ttf);
+		src: url(../fonts/Cormorant-VariableFont_wght.ttf);
 	}
 
 	body, input, select, textarea {
