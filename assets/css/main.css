@@ -3299,11 +3299,11 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
+		padding: 8rem 0rem 3rem 0rem ;
+		-moz-align-items: left;
+		-webkit-align-items: left;
+		-ms-align-items: left;
+		align-items: left;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3319,10 +3319,13 @@ input, select, textarea {
 		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		/* transition: opacity 1s ease, transform 1s ease; */
+		/* transition: opacity s1s ease, transform 1s ease; */
 		position: relative;
+		width: calc(100%-4rem);
+		max-width: 72rem;
+		margin: 0 auto 0 auto;
 		cursor: default;
-		text-align: center;
+		text-align: left;
 		z-index: 1;
 		min-height: 100vh;
 	}
@@ -3401,17 +3404,17 @@ input, select, textarea {
 
 		#intro h1 {
 			font-size: 6rem;
-			font-style: italic;
-			font-weight: 500;
+			/* font-style: italic; */
+			font-weight: 900;
 			letter-spacing: -0.1 em;
 			line-height: 1;
 		}
 
 		#intro p {
 			font-size: 1.5rem;
-			font-style: normal;
-			margin-top: -0.25rem;
-			text-align: center;
+			font-style: italic;
+			margin-top: -2rem;
+			text-align: left;
 		}
 
 		#intro + #header {
