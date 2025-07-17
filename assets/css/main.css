@@ -3248,7 +3248,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/rubin_field.png");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../../images/rubin_field.png");
 			background-size: 	   cover,	cover,		100% cover;
 			background-position:   center,	center,		top center;
 			background-repeat: 	   repeat,	no-repeat,	no-repeat;
@@ -3632,7 +3632,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: rgba(0, 0, 0, 0.2);
 		height: 4rem;
 		line-height: 4rem;
 		margin: 0rem auto 0 auto;
@@ -3715,7 +3715,7 @@ input, select, textarea {
 			list-style: none;
 			margin-bottom: 0;
 			padding-left: 0;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 		}
 
 			#nav ul.links li {
@@ -4401,17 +4401,18 @@ input, select, textarea {
 		}
 
 	#copyright {
-		color: #ffffff;
+		/* color: #ffffff; */
 		position: relative;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Tenor Sans", Helvetica, Arial sans-serif;
+		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
 		line-height: 1.5;
 		text-align: center;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		margin: 4rem auto 8rem auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
@@ -4515,12 +4516,13 @@ input, select, textarea {
 		right: 0.75rem;
 		border: 0;
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Tenor Sans", Helvetica, Arial sans-serif;
+		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
 		font-size: 0.9rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
 		padding: 0.375rem 1.25rem;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		z-index: 10001;
 	}
 
@@ -4607,13 +4609,14 @@ input, select, textarea {
 				#navPanel .links li a {
 					border-bottom: 0;
 					display: block;
-					font-family: "Source Sans Pro", Helvetica, sans-serif;
+					font-family: "Tenor Sans", Helvetica, Arial sans-serif;
+					/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
 					font-size: 0.9rem;
 					font-size: 0.9rem;
 					font-weight: 900;
 					letter-spacing: 0.075em;
 					padding: 0.75rem 0;
-					text-transform: uppercase;
+					/* text-transform: uppercase; */
 				}
 
 				#navPanel .links li:first-child {
